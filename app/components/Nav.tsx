@@ -5,8 +5,7 @@ import { usePathname } from "next/navigation";
 import styles from "../styles/layout.module.css";
 import { useSelector } from "react-redux";
 import { RootState } from "@/lib/store";
-import ShoppingCartCheckoutIcon from '@material-ui/icons/ShoppingCartTwoTone'
-
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 export const Nav = () => {
   const pathname = usePathname();
   const amount = useSelector<RootState, number>((store) => store.basket.amount)
@@ -45,7 +44,7 @@ export const Nav = () => {
         href="/store"
       >
        {/* <MenuIcon/> */}
-       <ShoppingCartCheckoutIcon/>
+       <ShoppingCartIcon/>
         
       </Link>
 

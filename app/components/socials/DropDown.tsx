@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { SocialIcon } from "react-social-icons";
-import MenuIcon from "@material-ui/icons/Menu"; // Import the Menu icon
+import MenuIcon from '@mui/icons-material/Menu';
 import { socialsData } from "./Data";
 
 const DropDown = () => {
