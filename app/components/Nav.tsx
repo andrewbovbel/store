@@ -54,9 +54,9 @@ export const Nav = () => {
 
       <Link
         className={`${styles.link} ${
-          pathname === "/commission" ? styles.active : ""
+          pathname === "/socials" ? styles.active : ""
         }`}
-        href="/commission"
+        href="/socials"
       >
           <MenuIcon/>
       </Link>

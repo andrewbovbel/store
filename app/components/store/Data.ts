@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from 'next/image';
+import { StaticImageData } from 'next/image';
 import lol1 from '/public/images/1.jpg'
 import lol2 from '/public/images/2.jpg'
 import lol3 from 'public/images/3.jpg'
