@@ -5,5 +5,7 @@ export interface SocialItem {
 
 export const socialsData: SocialItem[] = [
    {network: "instagram", url: "https://www.instagram.com/bovbecpottery/"},
-   {network: "email", url: "rebecca@bovbel.com"}
+  
+
+  //  {network: "email", url: "rebecca@bovbel.com"}
 ]

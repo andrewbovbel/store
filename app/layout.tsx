@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { StoreProvider } from "./StoreProvider";
 import { Nav } from "./components/Nav";
-
+import DropDown from "./components/socials/DropDown";
 import "./styles/globals.css";
 import styles from "./styles/layout.module.css";
 
@@ -17,8 +17,12 @@ export default function RootLayout({ children }: Props) {
           <section className={styles.container}>
             <Nav />
             <main className={styles.main}>{children}</main>
-
+            
+            
           </section>
+          <div className="flex">
+              <DropDown />
+            </div>
         </body>
       </html>
     </StoreProvider>
