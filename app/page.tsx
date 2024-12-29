@@ -2,9 +2,15 @@ import type { Metadata } from "next";
 import { Counter } from "./components/counter/Counter";
 
 export default function IndexPage() {
-  return <Counter />;
+  return (
+    <>
+      <h1>Rebecca Bovbel</h1>
+      <p>
+        Welcome to my website
+      </p>
+    </>)
 }
 
 export const metadata: Metadata = {
-  title: "Redux Toolkit",
+  title: "Andrew@Bovbel.com",
 };
