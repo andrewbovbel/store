@@ -5,7 +5,7 @@ export default function IndexPage() {
     <>
       <h1>Rebecca Bovbel</h1>
       <p>
-        Welcome to my website
+        Welcome to my website!
       </p>
     </>)
 }
